@@ -1,0 +1,22 @@
+# Ignore node_modules since it will be installed inside the container
+node_modules
+
+# Ignore version control directories
+.git
+.gitignore
+
+# Ignore local environment configuration files
+.env
+.env.*
+
+# Ignore Docker Compose and Docker-related files (not needed inside the image)
+docker-compose.yml
+Dockerfile
+.dockerignore
+
+# Ignore test-related files
+*.log
+*.test.*
+*.spec.*
+coverage/
+jest.config.js
